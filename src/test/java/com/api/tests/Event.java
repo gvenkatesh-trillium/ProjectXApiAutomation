@@ -148,10 +148,6 @@ public class Event extends BaseClass {
         verifyResponse.validateAssertion();
 
         Matcher bid = Pattern.compile("tri_booking\",\"id\":\"([a-zA-Z0-9-]{36})\",").matcher(response.asString());
-//        bookingId = bid.replaceAll(("\"tri_booking\",\"id\":\"""");
-
-//        Regex r = new Regex("tri_booking\",\"id\":\"([a-zA-Z0-9-]{36})\",").matcher(response.asString());
-
         System.out.println(bookingId);
         while (bid.find()) { bookingId = bid.group().split("\"")[4];}
 
