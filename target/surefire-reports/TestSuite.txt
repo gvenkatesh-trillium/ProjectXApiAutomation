@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 70, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 248.238 s <<< FAILURE! - in TestSuite
+com.api.tests.GenericCRM.PayTransaction  Time elapsed: 0.913 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.GenericCRM.PayTransaction(GenericCRM.java:303)
+
+com.api.tests.GiftAid.ProcessGiftAidBatch  Time elapsed: 2.911 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.GiftAid.ProcessGiftAidBatch(GiftAid.java:71)
+
+com.api.tests.Membership.ApplyMembershipDiscountCodeForWeb  Time elapsed: 0.657 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.Membership.ApplyMembershipDiscountCodeForWeb(Membership.java:205)
+
+com.api.tests.Membership.RetrieveValidMembershipDiscountCodeForWeb  Time elapsed: 0.595 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.Membership.RetrieveValidMembershipDiscountCodeForWeb(Membership.java:182)
+
+com.api.tests.Dialogs.CreateTransactionAllInOne  Time elapsed: 2.757 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.Dialogs.CreateTransactionAllInOne(Dialogs.java:138)
+
+com.api.tests.Dialogs.ExecuteMembershipBatch  Time elapsed: 1.14 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.api.tests.Dialogs.ExecuteMembershipBatch(Dialogs.java:155)
+
+com.api.tests.CPD.UpdateCpdActivity  Time elapsed: 0.645 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CPD.UpdateCpdActivity(CPD.java:164)
+
+com.api.tests.Membership.CreateFundraisingMembership  Time elapsed: 22.273 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.Membership.CreateFundraisingMembership(Membership.java:300)
+
+com.api.tests.Dialogs.PayMultipleTransactions  Time elapsed: 0.281 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.Dialogs.PayMultipleTransactions(Dialogs.java:209)
+
+com.api.tests.Membership.CreateMultipleMembershipInvoiceTransaction  Time elapsed: 3.119 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.Membership.CreateMultipleMembershipInvoiceTransaction(Membership.java:481)
+
+com.api.tests.FundRaising.CreateDonationPaymentPlan  Time elapsed: 2.823 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.FundRaising.CreateDonationPaymentPlan(FundRaising.java:185)
+

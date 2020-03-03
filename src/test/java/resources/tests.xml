@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CRM API Automation Testing" preserve-order="true" verbose="1" >
+       <test name="CRM API Tests">
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="com.Contact"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.Account"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.Address"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.GenericCRM"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.Membership"/>&ndash;&gt;-->
+<!--        </classes>-->
+           <packages>
+               <package name="com.api.tests.*" />
+           </packages>
+    </test>
+</suite>
